@@ -1,9 +1,11 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 市表
  */
-public class City {
+public class City extends DataSupport {
     private int id;//市id
     private String cityName;//市名字
     private int cityCode;//市编号
